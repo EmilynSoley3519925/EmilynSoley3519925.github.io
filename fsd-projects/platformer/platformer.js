@@ -12,6 +12,7 @@ $(function () {
       $(document).on("keydown", handleKeyDown);
       $(document).on("keyup", handleKeyUp);
       firstTimeSetup = false;
+    
       //start game
       setInterval(main, 1000 / frameRate);
     }
@@ -42,6 +43,11 @@ console.log(createPlatform(850,300,10,300));
 
 
     // TODO 3 - Create Collectables
+    console.log(createCollectable("steve", 400, 400));
+     console.log(createCollectable("max",800, 500));
+      console.log(createCollectable("kennedi",1300,400));
+       console.log(createCollectable("grace",1000,400));
+        console.log(createCollectable("diamond",300,600,));
 
 
 

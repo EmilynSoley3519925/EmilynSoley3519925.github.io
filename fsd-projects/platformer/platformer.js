@@ -47,10 +47,10 @@ console.log(createPlatform(850,300,10,300));
        console.log(createCollectable("grace",1000,400));
         console.log(createCollectable("diamond",300,600,));
     // TODO 4 - Create Cannons
-     console.log(createCannon("top",400,1000));
-      console.log(createCannon("top",750,1000));
+     console.log(createCannon("top",400,2000));
+      console.log(createCannon("top",750,2000));
       console.log(createCannon("right",750,2000));
-      console.log(createCannon("top",1100,1000));
+      console.log(createCannon("top",1100,2000));
 
       
 
